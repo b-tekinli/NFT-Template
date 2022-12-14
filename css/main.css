@@ -1,0 +1,9 @@
+/*
+MOBILE : <= 767;
+DESKTOP : > 1199;
+*/
+
+@import "./reboot.css";
+@import './grid.css';
+@import "./header.css";
+@import "./footer.css";
