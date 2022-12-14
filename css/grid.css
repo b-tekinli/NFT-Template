@@ -25,12 +25,24 @@
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .justify-between {
     justify-content: space-between;
 }
 
 .justify-end {
     justify-content: flex-end;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1199px) {
@@ -46,8 +58,8 @@
     .row {
         display: flex;
         flex-wrap: wrap;
-        margin-left: -15px;
-        margin-right: -15px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
 
     .container {

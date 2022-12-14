@@ -1,5 +1,5 @@
 header {
-    margin: 10px auto;
+    padding: 20px 0;
 }
 
 .logo {
@@ -59,7 +59,7 @@ header {
 }
 
 .btn-2 {
-    border-color: #6300FF;
+    border: 0.5px solid #6300FF;
 }
 
 .btn-3 {
@@ -74,7 +74,7 @@ header {
     }
 
     .container {
-        max-width: 460px;
+        max-width: 390px;
         margin: 0 auto;
     }
 
@@ -103,6 +103,7 @@ header {
         border: 0.5px solid #C7C7C7;
         padding: 16px;
         margin: 5px 0;
+        background-color: #ffffff;
     }
 
     .shape {
