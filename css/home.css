@@ -20,9 +20,10 @@ h1 {
     font-weight: bold;
 }
 
-.parag {
-    padding-top: 70px;
+.parag p {
+    padding-top: 30px;
     font-size: 18px;
+    font-weight: normal;
 }
 
 h4 {
@@ -32,7 +33,7 @@ h4 {
 }
 
 .btn-e {
-    margin: 0px 30px;
+    margin: -15px 30px;
 }
 
 .botsection {
@@ -140,7 +141,7 @@ h4 {
     }
 
     .container {
-        max-width: 460px;
+        max-width: 600px;
         margin: 0 auto;
     }
 
@@ -164,4 +165,31 @@ h4 {
         flex-wrap: wrap;
     }
 
+    .text {
+        margin: 0 85px;
+    }
+
+    h4 {
+        margin: -25px 10px;
+    }
+
+    .parag p {
+        margin: 30px 95px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .btn-e {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+    }
+
+    .botsection {
+        margin: 50px 155px;
+    }
+
+    .card {
+        margin: 10px 50px;
+    }
 }
