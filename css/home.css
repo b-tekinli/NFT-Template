@@ -1,6 +1,5 @@
 main {
     height: 650px;
-    width: 98%;
 }
 
 main .row {
@@ -16,34 +15,41 @@ h1 {
 }
 
 .title p {
-    margin: 40px 8px 0 8px;
+    margin: 40px 8px;
     font-size: 32px;
     font-weight: bold;
+}
+
+.parag {
+    padding-top: 70px;
+    font-size: 18px;
 }
 
 h4 {
     font-size: 40px;
     font-weight: 500;
-}
-
-.content {
-    margin: 0 30px;
-}
-
-.content p {
-    padding: 0 0px 30px 0;
+    margin-top: -30px;
 }
 
 .btn-e {
-    margin: 20px;
+    margin: 0px 30px;
 }
 
 .botsection {
-    margin: 50px 30px;
+    margin: 50px 40px;
+}
+
+.botsection span {
+    font-size: 18px;
 }
 
 .s {
-    padding-right: 15px;
+    padding-right: 25px;
+    margin-top: 7px;
+}
+
+.s p {
+    font-size: 29px;
 }
 
 .card {
@@ -63,7 +69,68 @@ h4 {
     max-height: 484px;
 }
 
+.cardTop {
+    position: relative;
+    background-color: #E5E0F0;
+    z-index: 3;
+    margin: -170px -10px 0 10px;
+    max-width: 438px;
+    max-height: 100px;
+    border-radius: 15px;
+    padding: 20px;
+}
 
+.p-1 p {
+    font-size: 14px;
+}
+
+.p-2 p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.p-3 p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.p-4 p {
+    font-size: 14px;
+}
+
+.p-5 p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cardBot {
+    position: absolute;
+    background-color: #D2CEDB;
+    z-index: 2;
+    margin: -12px 0 0 -20px;
+    width: 490px;
+    height: 117px;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+}
+
+.person {
+    padding: 5px 15px;
+}
+
+.p-6 .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.p-6 p {
+    margin: 0 20px 0 0;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
 
 /* MOBILE */
 
@@ -92,4 +159,9 @@ h4 {
     .mobile-row {
         margin: 0;
     }
+
+    .home {
+        flex-wrap: wrap;
+    }
+
 }
