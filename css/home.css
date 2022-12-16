@@ -136,31 +136,6 @@ h4 {
 /* MOBILE */
 
 @media screen and (max-width: 767px) {
-    .mobile-hidden {
-        display: none;
-    }
-
-    .container {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    .col {
-        padding-left: 3px;
-        padding-right: 3px;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-
-    .mobile-row {
-        margin: 0;
-    }
-
     .home {
         flex-wrap: wrap;
     }
