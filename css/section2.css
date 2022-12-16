@@ -1,0 +1,71 @@
+.s2-title {
+    margin: 0 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+    letter-spacing: 6px;
+}
+
+.title-btn {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6300FF;
+    padding: 18px 26px;
+}
+
+.btn-ok {
+    padding: 5px 0;
+    padding-left: 30px;
+}
+
+.card-s2 {
+    position: relative;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-left: 15px;
+    min-height: 260px;
+    min-width: 225px;
+    background: #FFFFFF;
+    border: 0.5px solid #C7C7C7;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+}
+
+.bg {
+    position: absolute;
+}
+
+.p {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 65px;
+}
+
+.tik {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 144px;
+}
+
+#text-center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.title-font {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #0E0E0E;
+    top: 190px;
+}
+
+.text-gray {
+    position: absolute;
+    font-size: 14px;
+    line-height: 16px;
+    color: #979797;
+    top: 225px;
+    margin: 0 35px;
+}
