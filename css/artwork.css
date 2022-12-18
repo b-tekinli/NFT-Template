@@ -1,56 +1,59 @@
-section {
+.artwork--container {
     margin-top: 50px;
-    min-height: 650px;
     margin-bottom: 50px;
+    min-height: 650px;
 }
 
-h2 {
+.artwork--container h2 {
     font-size: 40px;
     font-weight: 700;
     line-height: 111px;
     letter-spacing: 6px;
 }
 
-.cards {
+.artwork-cards {
+    position: relative;
     margin: 10px 0px;
 }
 
-.b-card-img {
+.artwork-big-card-img {
     position: absolute;
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
 }
 
-.box {
+.artwork-big-card-box {
     position: relative;
     top: 370px;
     left: 16px;
-    padding: 15px 300px 15px 10px;
+    padding: 15px 315px 15px 10px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(25px);
     border-radius: 15px;
 }
 
-.box-title {
+.artwork-big-card-box-title {
     font-size: 26px;
     font-weight: bold;
     color: #0E0E0E;
 }
 
-.box-body {
+.artwork-big-card-box-body {
     font-size: 16px;
     align-items: center;
     color: #5E5E5E;
 }
 
-
-
 #special {
     bottom: 20px;
 }
 
-.l-card {
+.artwork-small-cards {
+    position: absolute;
+}
+
+.artwork-small-card {
     position: relative;
     border-radius: 20px;
     min-height: 227px;
@@ -59,13 +62,13 @@ h2 {
     margin-right: 15px;
 }
 
-.l-card-img {
+.artwork-small-card-img {
     position: absolute;
     bottom: 50px;
     border-radius: 20px;
 }
 
-.l-card-body {
+.artwork-small-card-body {
     position: relative;
     max-width: 202px;
     max-height: 38px;
@@ -78,7 +81,7 @@ h2 {
     border-radius: 15px;
 }
 
-.card-body-text {
+.artwork-small-card-body-text {
     font-size: 16px;
     font-weight: bold;
 }
@@ -87,26 +90,32 @@ h2 {
 /* MOBILE */
 
 @media screen and (max-width: 767px) {
-    h2 {
+    .artwork {
+        position: relative;
+        padding-top: 550px;
+        padding-left: 130px;
+    }
+
+    .artwork--container h2 {
         font-size: 33px;
     }
-    
-    .section {
+
+    .artwork--container {
         margin: 0 20px;
     }
 
-    .b-card-img {
+    .artwork-big-card-img {
         margin: 0 auto;
         position: absolute;
     }
 
-    .box {
-        top: 370px;
-        left: 25px;
-    }
-
-    .cards {
+    .artwork-cards {
         display: flex;
         flex-direction: column;
+    }
+
+    .artwork-big-card-box {
+        top: 380px;
+        left: 20px;
     }
 }

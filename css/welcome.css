@@ -1,63 +1,67 @@
-main {
+.welcome--container {
     height: 650px;
 }
 
-main .row {
-    display: inline;
-}
-
-.title {
+.welcome-starlight-title {
     margin: 100px 30px;
 }
 
-h1 {
+.welcome-starlight-title h1 {
     font-size: 71px;
 }
 
-.title p {
+.welcome-starlight-title p {
     margin: 40px 8px;
     font-size: 32px;
     font-weight: bold;
 }
 
-.parag p {
+.welcome-starlight-paragraph p {
     padding-top: 30px;
     font-size: 18px;
     font-weight: normal;
 }
 
-h4 {
+.welcome-starlight-title h4 {
     font-size: 40px;
     font-weight: 500;
     margin-top: -30px;
 }
 
-.btn-e {
-    margin: -15px 30px;
+.welcome-btn--container {
+    margin: -25px 30px;
 }
 
-.botsection {
+
+.welcome-btn-explore {
+    border: none;
+    color: #ffffff;
+    background-color: #6300FF;
+    padding: 14px 20px;
+}
+
+.welcome-bot--container {
     margin: 50px 40px;
 }
 
-.botsection span {
+.welcome-bot--container span {
     font-size: 18px;
 }
 
-.s {
+.welcome-bot {
     padding-right: 25px;
     margin-top: 7px;
 }
 
-.s p {
+.welcome-bot p {
     font-size: 29px;
 }
 
-.card {
+.welcome-slider--container {
     margin: 50px 30px;
 }
 
-.art {
+.welcome-art {
     position: absolute;
     z-index: 1;
     margin: 45px 0px 0px -20px;
@@ -65,12 +69,12 @@ h4 {
     max-height: 484px;
 }
 
-.rectangle {
+.welcome-rectangle {
     max-width: 528px;
     max-height: 484px;
 }
 
-.cardTop {
+.welcome-slider-on {
     position: relative;
     background-color: #E5E0F0;
     z-index: 3;
@@ -81,31 +85,31 @@ h4 {
     padding: 20px;
 }
 
-.p-1 p {
+.welcome-slider-on .left-p1 p {
     font-size: 14px;
 }
 
-.p-2 p {
+.welcome-slider-on .left-p2 p {
     font-size: 24px;
     font-weight: bold;
     padding-right: 10px;
 }
 
-.p-3 p {
+.welcome-slider-on .left-p3 p {
     font-size: 14px;
     padding-top: 10px;
 }
 
-.p-4 p {
+.welcome-slider-on .right-p1 p {
     font-size: 14px;
 }
 
-.p-5 p {
+.welcome-slider-on .right-p2 p {
     font-size: 18px;
     font-weight: 600;
 }
 
-.cardBot {
+.welcome-slider-bot {
     position: absolute;
     background-color: #D2CEDB;
     z-index: 2;
@@ -116,17 +120,17 @@ h4 {
     padding: 20px;
 }
 
-.person {
+.slider-bot-user {
     padding: 5px 15px;
 }
 
-.p-6 .name {
+.slider-bot-p .slider-bot-name {
     font-size: 24px;
     font-weight: bold;
     margin-left: 20px;
 }
 
-.p-6 p {
+.slider-bot-p p {
     margin: 0 20px 0 0;
     font-size: 18px;
     margin-left: 20px;
@@ -136,35 +140,49 @@ h4 {
 /* MOBILE */
 
 @media screen and (max-width: 767px) {
-    .home {
+    .welcome--container {
         flex-wrap: wrap;
+        padding: 0 100px;
     }
 
-    .text {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .welcome-starlight-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .welcome-starlight-text {
         margin: 0 85px;
     }
 
-    h4 {
+    .welcome-container h4 {
         margin: -25px 10px;
     }
 
-    .parag p {
+    .welcome-starlight-paragraph p {
         margin: 30px 95px;
         font-size: 18px;
         font-weight: 400;
     }
 
-    .btn-e {
+    .welcome-btn--container {
         display: flex;
         justify-content: center;
         margin-top: -50px;
     }
 
-    .botsection {
+    .welcome-bot--container {
         margin: 50px 155px;
     }
 
-    .card {
+    .welcome-slider--container {
         margin: 10px 50px;
     }
 }

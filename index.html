@@ -11,67 +11,71 @@
     <title>NFT Template</title>
 </head>
 
+
 <body>
+
     <!-- HEADER -->
-    <header>
-        <div class="container">
-            <nav class="row m-justify-between">
-                <div class="logo flex">
-                    <img src="img/x.png" alt="logo">
-                    <p>Starlight</p>
-                </div>
-                <div class="searchbar mobile-hidden">
-                    <img src="img/header/searchbar.png" alt="search">
-                    <input type="text" placeholder="Search by creator, collectible or collection">
-                </div>
-                <div class="navbar mobile-hidden">
-                    <ul class="flex">
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">Following</a></li>
-                        <li><a href="#">Activity</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Community</a></li>
-                        <img src="img/header/ok.svg">
-                    </ul>
-                </div>
-                <div class="buttons">
-                    <div class="d-btn mobile-hidden flex">
-                        <button class="btn btn-1">Create</button>
-                        <button class="btn btn-2">Sign In</button>
-                        <button class="btn btn-3"><img src="img/header/moon.png"></button>
-                    </div>
-                    <div class="m-button desktop-hidden">
-                        <button class="mobile-btn">
-                            <img src="img/mobile/search.png">
-                        </button>
-                        <button class="mobile-btn">
-                            <img src="img/mobile/mobile-moon.png">
-                        </button>
-                        <button class="mobile-btn shape">
-                            <img src="img/mobile/shape.png">
-                        </button>
-                        <button class="mobile-btn">
-                            <img src="img/mobile/user.png">
-                        </button>
-                    </div>
-                </div>
+    <header class="header--container">
+        <div class="row justify-center mobile-justify-between">
+            <figure class="logo--container flex">
+                <img src="img/x.png">
+                <p>Starlight</p>
+            </figure>
+            <div class="header-searchbar mobile-hidden">
+                <img src="img/header/searchbar.png">
+                <input type="text" placeholder="Search by creator, collectible or collection">
+            </div>
+            <nav class="navbar--container mobile-hidden">
+                <ul class="flex">
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Following</a></li>
+                    <li><a href="#">Activity</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Community</a></li>
+                    <img src="img/header/dropdown.svg">
+                </ul>
             </nav>
+            <div class="user-auth--container">
+                <div class="mobile-hidden flex">
+                    <button class="btn header-btn-create">Create</button>
+                    <button class="btn header-btn-sign">Sign In</button>
+                    <button class="btn header-btn-theme">
+                        <img src="img/header/moon.png">
+                    </button>
+                </div>
+                <div class="desktop-hidden">
+                    <button class="mobile-button">
+                        <img src="img/mobile/search.png">
+                    </button>
+                    <button class="mobile-button">
+                        <img src="img/mobile/mobile-moon.png">
+                    </button>
+                    <button class="mobile-button shape">
+                        <img src="img/mobile/shape.png">
+                    </button>
+                    <button class="mobile-button">
+                        <img src="img/mobile/user.png">
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
 
 
-    <!-- MAIN -->
-    <main>
-        <div class="container home flex">
+
+
+    <!-- WELCOME PAGE - MAIN -->
+    <main class="welcome--container">
+        <div class="container flex">
             <div class="col">
-                <div class="title">
-                    <div class="flex text">
+                <div class="welcome-starlight-title">
+                    <div class="welcome-starlight-text flex">
                         <h1>Starlight</h1>
                         <p>(SLX)</p>
                     </div>
                     <h4>the NFT Governance Token</h4>
-                    <div class="parag">
+                    <div class="welcome-starlight-paragraph">
                         <p class="wrap mobile-hidden">
                             A perfect place to buy and sell digital art, as well as updating your NFT
                             collection.
@@ -82,22 +86,22 @@
                     </div>
                 </div>
 
-                <div class="btn-e">
-                    <button class="btn btn-1">Explore All</button>
+                <div class="welcome-btn--container">
+                    <button class="btn welcome-btn-explore">Explore All</button>
                 </div>
 
-                <div class="botsection flex">
-                    <div class="s">
+                <div class="welcome-bot--container flex">
+                    <div class="welcome-bot">
                         <p><b>123k</b></p>
                         <span>User</span>
                     </div>
-                    <img class="s" src="img/main/stick.svg">
-                    <div class="s">
+                    <img class="welcome-bot" src="img/main/stick.svg">
+                    <div class="welcome-bot">
                         <p><b>156k</b></p>
                         <span>Artwork</span>
                     </div>
-                    <img class="s" src="img/main/stick.svg">
-                    <div class="s">
+                    <img class="welcome-bot" src="img/main/stick.svg">
+                    <div class="welcome-bot">
                         <p><b>200k</b></p>
                         <span>Artist</span>
                     </div>
@@ -105,39 +109,39 @@
             </div>
 
 
-            <div class="card">
-                <img class="art" src="img/main/digitalArt.png">
-                <img class="rectangle" src="img/main/rectangle.png">
+            <div class="welcome-slider--container">
+                <img class="welcome-art" src="img/main/digitalArt.png">
+                <img class="welcome-rectangle" src="img/main/rectangle.png">
 
-                <div class="cardTop flex justify-between">
-                    <div class="left">
-                        <div class="p-1">
+                <div class="welcome-slider-on flex justify-between">
+                    <div class="slider-on-left">
+                        <div class="left-p1">
                             <p>Current Bid</p>
                         </div>
                         <div class="left-bot flex">
-                            <div class="p-2">
+                            <div class="left-p2">
                                 <p>2.20 ETH</p>
                             </div>
-                            <div class="p-3">
+                            <div class="left-p3">
                                 <p>($3,321.56)</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="right">
-                        <div class="p-4">
+                    <div class="slider-on-right">
+                        <div class="right-p1">
                             <p>Remaining time</p>
                         </div>
-                        <div class="p-5">
+                        <div class="right-p2">
                             <p>23H : 11M: 32S</p>
                         </div>
                     </div>
                 </div>
-                <div class="cardBot">
-                    <div class="person flex">
+                <div class="welcome-slider-bot">
+                    <div class="slider-bot-user flex">
                         <img src="img/main/person.png">
-                        <div class="p-6">
-                            <p class="name">Liquid Abstarct Painting</p>
+                        <div class="slider-bot-p">
+                            <p class="slider-bot-name">Liquid Abstract Painting</p>
                             <p>@gshsj56</p>
                         </div>
                     </div>
@@ -148,223 +152,367 @@
 
 
 
-    <!-- SECTION 1 -->
-    <section class="section1">
+
+
+    <!-- ARTWORK - SECTION -->
+    <section class="artwork">
         <div class="container">
-            <div class="section">
+            <div class="artwork--container">
                 <h2>Artwork of the week</h2>
-                <div class="cards row">
-                    <div class="b-card">
-                        <img class="b-card-img" src="img/section1/bigCard.png">
-                        <div class="box">
-                            <p class="box-title">
+                <div class="artwork-cards row">
+                    <div class="artwork-big-card">
+                        <img class="artwork-big-card-img" src="img/artwork/bigCard.png">
+                        <div class="artwork-big-card-box">
+                            <p class="artwork-big-card-box-title">
                                 The Black
                             </p>
-                            <p class="box-body">
+                            <p class="artwork-big-card-box-body">
                                 Original Series
                             </p>
                         </div>
                     </div>
 
-                    <div class="l-cards">
-                        <div class="l-card" id="special">
-                            <img class="l-card-img" src="img/section1/card1.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                    <!-- <div class="artwork-small-cards">
+                        <div class="artwork-small-card" id="special">
+                            <img class="artwork-small-card-img" src="img/artwork/card1.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
                         </div>
 
-                        <div class="l-card" id="special">
-                            <img class="l-card-img" src="img/section1/card2.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                        <div class="artwork-small-card" id="special">
+                            <img class="artwork-small-card-img" src="img/artwork/card2.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
                         </div>
 
-                        <div class="l-card" id="special">
-                            <img class="l-card-img" src="img/section1/card3.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                        <div class="artwork-small-card" id="special">
+                            <img class="artwork-small-card-img" src="img/artwork/card3.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
                         </div>
 
-                        <div class="l-card">
-                            <img class="l-card-img" src="img/section1/card4.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                        <div class="artwork-small-card">
+                            <img class="artwork-small-card-img" src="img/artwork/card4.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
                         </div>
 
-                        <div class="l-card">
-                            <img class="l-card-img" src="img/section1/card5.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                        <div class="artwork-small-card">
+                            <img class="artwork-small-card-img" src="img/artwork/card5.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
                         </div>
 
-                        <div class="l-card">
-                            <img class="l-card-img" src="img/section1/card6.png">
-                            <div class="l-card-body">
-                                <p class="card-body-text">
+                        <div class="artwork-small-card">
+                            <img class="artwork-small-card-img" src="img/artwork/card6.png">
+                            <div class="artwork-small-card-body">
+                                <p class="artwork-small-card-body-text">
                                     Butterfly
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
 
 
-    <!-- SECTION 2 -->
-    <section>
+
+
+    <!-- TOP SELLERS - SECTION -->
+    <section class="topsellers--container">
         <div class="container">
-            <div class="row">
-                <p class="s2-title">
+            <div class="flex">
+                <p class="topsellers-title">
                     Top Sellers
                 </p>
-                <button class="btn title-btn flex">
+                <button class="btn topsellers-title-btn flex">
                     Today
-                    <img class="btn-ok" src="img/header/ok.svg">
+                    <img class="topsellers-btn-dropdown" src="img/header/dropdown.svg">
                 </button>
             </div>
 
-            <div class="s2-cards flex wrap">
-                <div class="card-s2">
+            <div class="topsellers-cards row">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg1.png">
-                        <img class="p" src="img/section2/p1.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg1.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p1.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Courtney Henry</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Courtney Henry</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg2.png">
-                        <img class="p" src="img/section2/p2.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg2.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p2.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Eleanor Pena</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Eleanor Pena</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg3.png">
-                        <img class="p" src="img/section2/p3.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg3.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p3.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Darlene Robertson</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Darlene Robertson</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg4.png">
-                        <img class="p" src="img/section2/p4.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg4.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p4.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Robert Fox</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Robert Fox</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg5.png">
-                        <img class="p" src="img/section2/p5.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg5.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p5.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Savannah Nguyen</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Savannah Nguyen</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg6.png">
-                        <img class="p" src="img/section2/p6.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg6.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p6.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Devon Lane</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Devon Lane</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg7.png">
-                        <img class="p" src="img/section2/p7.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg7.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p7.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Arlene McCoy</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Arlene McCoy</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg8.png">
-                        <img class="p" src="img/section2/p8.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg8.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p8.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Albert Flores</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Albert Flores</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg9.png">
-                        <img class="p" src="img/section2/p9.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg9.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p9.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Kristin Watson</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Kristin Watson</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
 
-                <div class="card-s2">
+                <div class="topsellers-card">
                     <a>
-                        <img class="bg" src="img/section2/bg10.png">
-                        <img class="p" src="img/section2/p10.png">
-                        <img class="tik" src="img/section2/tik.svg">
+                        <img class="topsellers-card-bg" src="img/topsellers/bg10.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p10.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
                     </a>
-                    <div id="text-center">
-                        <p class="title-font">Cody Fisher</p>
-                        <p class="text-gray">$1,403</p>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Cody Fisher</p>
+                        <p class="topsellers-person-money">$1,403</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+    <!-- TOP BUYERS - SECTION -->
+    <section class="topbuyers--container">
+        <div class="container">
+            <div class="flex">
+                <p class="topsellers-title">
+                    Top Buyers
+                </p>
+                <button class="btn topsellers-title-btn flex">
+                    Today
+                    <img class="topsellers-btn-dropdown" src="img/header/dropdown.svg">
+                </button>
+            </div>
+
+            <div class="topsellers-cards row">
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg1.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p1.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Courtney Henry</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg2.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p2.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Eleanor Pena</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg3.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p3.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Darlene Robertson</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg4.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p4.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Robert Fox</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg5.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p5.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Savannah Nguyen</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg6.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p6.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Devon Lane</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg7.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p7.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Arlene McCoy</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg8.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p8.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Albert Flores</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg9.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p9.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Kristin Watson</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+
+                <div class="topsellers-card">
+                    <a>
+                        <img class="topsellers-card-bg" src="img/topsellers/bg10.png">
+                        <img class="topsellers-card-person" src="img/topsellers/p10.png">
+                        <img class="topsellers-card-tik" src="img/topsellers/tik.svg">
+                    </a>
+                    <div class="text-center">
+                        <p class="topsellers-person-name">Cody Fisher</p>
+                        <p class="topsellers-person-money">$1,403</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

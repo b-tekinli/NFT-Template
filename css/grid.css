@@ -9,12 +9,13 @@
 
 .btn {
     cursor: pointer;
-    padding: 16px 24px;
+    padding: 0 32px;
     border-radius: 47px;
     background-color: #ffffff;
     font-size: 14px;
     margin: 0 5px;
     font-weight: bold;
+    max-height: 60px;
 }
 
 .grow-1 {
@@ -74,7 +75,7 @@
     }
 
     .container {
-        max-width: 460px;
+        max-width: 490px;
         margin: 0 auto;
     }
 
@@ -92,48 +93,5 @@
 
     .mobile-row {
         margin: 0;
-    }
-
-    .m-button {
-        margin-right: 15px;
-    }
-
-    .mobile-btn {
-        border-radius: 47px;
-        border: 0.5px solid #C7C7C7;
-        padding: 16px;
-        margin: 5px 0;
-        background-color: #ffffff;
-    }
-
-    .shape {
-        padding: 18px;
-    }
-
-    .m-justify-between {
-        justify-content: space-between;
-    }
-
-    h2 {
-        font-size: 33px;
-    }
-    
-    .section {
-        margin: 0 20px;
-    }
-
-    .b-card-img {
-        margin: 0 auto;
-        position: absolute;
-    }
-
-    .box {
-        top: 370px;
-        left: 25px;
-    }
-
-    .cards {
-        display: flex;
-        flex-direction: column;
     }
 }

@@ -1,25 +1,25 @@
-header {
-    padding: 20px 0;
+.header--container {
+    padding: 20px 40px;
 }
 
-.logo {
+.header--container .logo--container {
     margin: 5px 20px;
 }
 
-.logo img {
+.header--container .logo--container img {
     max-height: 45px;
     max-width: 43px;
 }
 
-.logo p {
+.header--container .logo--container p {
     margin: 8px 15px;
 }
 
-.searchbar {
+.header--container .header-searchbar {
     margin: 8px 10px;
 }
 
-.searchbar input {
+.header-searchbar input {
     position: relative;
     background-color: #EDEDED;
     border-radius: 56px;
@@ -29,51 +29,59 @@ header {
     min-width: 285px;
 }
 
-.searchbar img {
+.header-searchbar img {
     position: absolute;
     z-index: 1;
     padding: 9px 10px;
 }
 
-.navbar {
+.navbar--container {
     margin: 10px 20px;
 }
 
-.navbar a {
+.navbar--container a {
     color: #000000;
     font-size: 14px;
     padding: 0 8px;
     font-weight: bold;
 }
 
-.navbar img {
+.navbar--container img {
     max-width: 10px;
     height: 5px;
     margin-top: 15px;
 }
 
-.btn-1 {
+.header-btn-create {
     border: none;
     color: #ffffff;
     background-color: #6300FF;
 }
 
-.btn-2 {
+.header-btn-sign {
     border: 0.5px solid #6300FF;
 }
 
-.btn-3 {
+.header-btn-theme {
     padding: 16px;
     border: 0.5px solid #C7C7C7;
 }
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
-    .m-button {
-        margin-right: 15px;
+    .header--container {
+        padding: 15px;
     }
 
-    .mobile-btn {
+    .logo--container {
+        margin: 0px;
+    }
+
+    .logo--container p {
+        margin: 10px;
+    }
+
+    .mobile-button {
         border-radius: 47px;
         border: 0.5px solid #C7C7C7;
         padding: 16px;
@@ -85,7 +93,7 @@ header {
         padding: 18px;
     }
 
-    .m-justify-between {
+    .mobile-justify-between {
         justify-content: space-between;
     }
 }
