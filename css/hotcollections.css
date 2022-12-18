@@ -1,0 +1,76 @@
+.hotcollections--container {
+    margin-bottom: 100px;
+    min-width: 1214px;
+}
+
+.hotcollections-title {
+    margin: 0 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+    letter-spacing: 6px;
+}
+
+.hotcollections-title-btn {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6300FF;
+    padding: 18px 26px;
+}
+
+.hotcollections-btn-dropdown {
+    padding: 5px 0;
+    padding-left: 30px;
+}
+
+.hotcollections-card {
+    position: relative;
+    flex-direction: row;
+    margin-top: 24px;
+    margin-left: 15px;
+    min-height: 260px;
+    min-width: 225px;
+    background: #FFFFFF;
+    border: 0.5px solid #C7C7C7;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+}
+
+.hotcollections-card-bg {
+    position: absolute;
+}
+
+.hotcollections-card-person {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 65px;
+}
+
+.hotcollections-card-tik {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 144px;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+}
+
+.hotcollections-person-name {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #0E0E0E;
+    top: 190px;
+}
+
+.hotcollections-person-money {
+    position: absolute;
+    font-size: 14px;
+    line-height: 16px;
+    color: #979797;
+    top: 225px;
+    margin: 0 35px;
+}
