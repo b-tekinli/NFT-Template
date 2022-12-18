@@ -10,3 +10,8 @@ DESKTOP : > 1199;
 @import "./welcome.css";
 @import "./artwork.css";
 @import "./topsellers.css";
+@import "./topbuyers.css";
+@import "./hotbids.css";
+@import "./liveauction.css";
+@import "./hotcollections.css";
+@import "./quickexplore.css";

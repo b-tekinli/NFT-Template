@@ -1,8 +1,9 @@
 .topbuyers--container {
-    min-width: 1214px; 
+    min-width: 1214px;
+    margin-bottom: 100px;
 }
 
-.topsellers-title {
+.topbuyers-title {
     margin: 0 10px;
     font-size: 40px;
     font-weight: bold;
@@ -10,19 +11,19 @@
     letter-spacing: 6px;
 }
 
-.topsellers-title-btn {
+.topbuyers-title-btn {
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #6300FF;
     padding: 18px 26px;
 }
 
-.topsellers-btn-dropdown {
+.topbuyers-btn-dropdown {
     padding: 5px 0;
     padding-left: 30px;
 }
 
-.topsellers-card {
+.topbuyers-card {
     position: relative;
     flex-direction: row;
     margin-top: 24px;
@@ -35,17 +36,17 @@
     border-radius: 15px;
 }
 
-.topsellers-card-bg {
+.topbuyers-card-bg {
     position: absolute;
 }
 
-.topsellers-card-person {
+.topbuyers-card-person {
     position: absolute;
     margin-top: 80px;
     margin-left: 65px;
 }
 
-.topsellers-card-tik {
+.topbuyers-card-tik {
     position: absolute;
     margin-left: 130px;
     margin-top: 144px;
@@ -56,7 +57,7 @@
     justify-content: center;
 }
 
-.topsellers-person-name {
+.topbuyers-person-name {
     position: absolute;
     font-size: 18px;
     font-weight: bold;
@@ -65,7 +66,7 @@
     top: 190px;
 }
 
-.topsellers-person-money {
+.topbuyers-person-money {
     position: absolute;
     font-size: 14px;
     line-height: 16px;
