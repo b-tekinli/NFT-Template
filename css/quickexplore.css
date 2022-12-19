@@ -1,0 +1,128 @@
+.quick--container {
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+
+.quick-title-text {
+    margin: 0 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+    letter-spacing: 6px;
+}
+
+.quick-title-btn {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6300FF;
+    padding: 20px 24px;
+}
+
+.quick-card {
+    position: relative;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-height: 400px;
+    max-width: 280px;
+    background: #FFFFFF;
+    border: 0.2px solid #EDECEC;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 15px;
+    padding-bottom: 120px;
+}
+
+.quick-heart {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    top: 20px;
+    left: 210px;
+    padding: 10px;
+}
+
+.quick-heart-text {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.quick-people {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+.quick-person-tick {
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+.quick-dot {
+    position: relative;
+    background: #FFFFFF;
+    border: 0.5px solid #C7C7C7;
+    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
+    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.quick-dot-text {
+    padding: 0px 5px 0px 10px;
+}
+
+.quick-cards-text {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.quick-card-title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quick-card-subtitles {
+    margin-top: 15px;
+}
+
+.quick-card-subtitle-1 {
+    font-size: 16px;
+    color: #EF1F1F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.quick-card-subtitle-2 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    margin-top: 3px;
+    margin-right: 40px;
+}
+
+.quick-time {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+    padding: 10px;
+    bottom: 20px;
+    left: 15px;
+}
+
+.quick-time-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 5px;
+    font-weight: bold;
+}
