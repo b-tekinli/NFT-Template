@@ -67,3 +67,35 @@
     color: #6E6E6E;
     margin-bottom: 15px;
 }
+
+.stick {
+    max-width: 1231px;
+    border: 0.5px solid #EAEAEA;
+    margin: 100px 0 50px 0;
+}
+
+.footer-subtitle > p {
+    margin-left: 30px;
+}
+
+.footer-copyright {
+    margin-right: 87px;
+}
+
+.footer-social {
+    margin-left: 350px;
+}
+
+/* .footer-social > span {
+    margin-right: 25px;
+}
+
+.footer-social > i {
+    background: #9D9D9D;
+} */
+
+.footer-icon {
+    max-width: 24px;
+    height: 16px;
+    margin-right: 25px;
+}
