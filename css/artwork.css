@@ -1,121 +1,135 @@
 .artwork--container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    min-height: 650px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 
-.artwork--container h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 111px;
-    letter-spacing: 6px;
+.artwork-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 111px;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
 }
 
-.artwork-cards {
-    position: relative;
-    margin: 10px 0px;
+.artwork-content {
+  display: flex;
+  height: 120%;
 }
 
-.artwork-big-card-img {
-    position: absolute;
-    border-radius: 20px;
-    object-fit: cover;
-    object-position: center;
+.artwork-big-card {
+  margin-right: 50px;
+  width: 650px;
 }
 
-.artwork-big-card-box {
-    position: relative;
-    top: 370px;
-    left: 16px;
-    padding: 15px 315px 15px 10px;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(25px);
-    border-radius: 15px;
+.artwork-big-card img {
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
 }
 
-.artwork-big-card-box-title {
-    font-size: 26px;
-    font-weight: bold;
-    color: #0E0E0E;
+.description {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(25px);
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
 }
 
-.artwork-big-card-box-body {
-    font-size: 16px;
-    align-items: center;
-    color: #5E5E5E;
+.artwork-big-description {
+  bottom: 5em;
+  display: flex;
+  width: 90%;
+  left: 1em;
+  flex-direction: column;
+  padding: 15px;
 }
 
-#special {
-    bottom: 20px;
+.artwork-big-description h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #0e0e0e;
 }
 
-.artwork-small-cards {
-    position: absolute;
+.artwork-big-description span {
+  font-size: 16px;
+  color: #5e5e5e;
 }
 
 .artwork-small-card {
-    position: relative;
-    border-radius: 20px;
-    min-height: 227px;
-    min-width: 227px;
-    padding: 30px 0;
-    margin-right: 15px;
+  margin-right: 20px;
+  height: 150px;
+  width: 220px;
 }
 
-.artwork-small-card-img {
-    position: absolute;
-    bottom: 50px;
-    border-radius: 20px;
+.artwork-small-card img {
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
 }
 
-.artwork-small-card-body {
-    position: relative;
-    max-width: 202px;
-    max-height: 38px;
-    margin: 0 12px;
-    margin-top: 95px;
-    padding: 6px 10px 10px 10px;
-    background: rgba(255, 255, 255, 0.8);
-    border: 0.5px solid #C7C7C7;
-    backdrop-filter: blur(25px);
-    border-radius: 15px;
+.artwork-small-description {
+  bottom: 2.4em;
+  width: 92%;
+  padding: 10px;
+  left: 10px;
 }
 
-.artwork-small-card-body-text {
-    font-size: 16px;
-    font-weight: bold;
+.artwork-small-description p {
+  font-weight: bold;
+  font-size: 14px;
 }
 
+.artwork-big-description h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
 
 /* MOBILE */
 
 @media screen and (max-width: 767px) {
-    .artwork {
-        position: relative;
-        padding-top: 550px;
-        padding-left: 130px;
-    }
+  .artwork--container {
+    position: relative;
+    padding-top: 550px;
+    padding-left: 180px;
+    margin-bottom: 200px;
+  }
 
-    .artwork--container h2 {
-        font-size: 33px;
-    }
+  .artwork-title {
+    font-size: 30px;
+    width: 400px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    margin-left: -55px;
+    margin-bottom: 1.5em;
+  }
 
-    .artwork--container {
-        margin: 0 20px;
-    }
+  .artwork-big-card {
+    margin-bottom: 30px;
+  }
 
-    .artwork-big-card-img {
-        margin: 0 auto;
-        position: absolute;
-    }
+  .artwork-big-card img {
+    margin-left: -60px;
+  }
 
-    .artwork-cards {
-        display: flex;
-        flex-direction: column;
-    }
+  .artwork-big-description {
+    left: -2.5em;
+    width: 450px;
+  }
 
-    .artwork-big-card-box {
-        top: 380px;
-        left: 20px;
-    }
+  .artwork-content {
+    display: block;
+  }
+
+  .artwork-small-cards {
+    margin-top: -8em;
+    margin-left: -3.8em;
+  }
+
+  .artwork-small-card {
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
 }
