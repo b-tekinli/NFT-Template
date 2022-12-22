@@ -106,3 +106,11 @@
     margin-top: 3px;
     margin-right: 40px;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 767px) {
+    .liveauction--container {
+        margin-left: 200px;
+    }
+}

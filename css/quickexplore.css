@@ -126,3 +126,11 @@
     margin-left: 5px;
     font-weight: bold;
 }
+
+/* MOBILE */
+
+@media screen and (max-width: 767px) {
+    .quick--container {
+        margin-left: 150px;
+    }
+}
