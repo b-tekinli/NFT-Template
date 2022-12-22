@@ -4,7 +4,7 @@
 }
 
 .footer-contact {
-    margin: 0px -50px;
+    margin: 0px 10px;
 }
 
 .footer-logo-text {
@@ -15,7 +15,7 @@
 .footer-about {
     font-size: 16px;
     line-height: 156.52%;
-    color: #6E6E6E;
+    color: #6e6e6e;
     margin-top: 35px;
     margin-bottom: 20px;
     max-width: 308px;
@@ -23,20 +23,22 @@
 
 .footer-email {
     margin-left: -5px;
+    display: flex;
 }
 
 .footer-input {
-    border: 0.2px solid #C7C7C7;
+    border: 0.2px solid #c7c7c7;
     box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.01);
     border-radius: 24px;
-    padding: 13px 20px 13px 21px;
+    padding: 18px;
 }
 
 .footer-contact-button {
     border: none;
     color: #ffffff;
-    background-color: #6300FF;
+    background-color: #6300ff;
     padding: 20px;
+    width: 80px;
 }
 
 .footer-lang-button {
@@ -64,13 +66,17 @@
 .color-gray {
     font-size: 16px;
     line-height: 156.52%;
-    color: #6E6E6E;
+    color: #6e6e6e;
     margin-bottom: 15px;
+}
+
+.footer-subtitle {
+    flex: start;
 }
 
 .stick {
     max-width: 1231px;
-    border: 0.5px solid #EAEAEA;
+    border: 0.5px solid #eaeaea;
     margin: 100px 0 50px 0;
 }
 
@@ -96,7 +102,6 @@
 
 @media screen and (max-width: 767px) {
     .footer--container {
-        display: flex;
         justify-content: center;
         align-items: center;
         margin-top: -50px;
@@ -104,11 +109,11 @@
 
     .footer-wrapper {
         display: block;
-        padding: 0 100px;
+        padding: 0 120px;
     }
 
     .footer-logo {
-        padding: 0 50px;
+        padding: 0 70px;
         text-align: center;
     }
 
@@ -117,30 +122,51 @@
     }
 
     .footer-mobile-info {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     .stick {
-        margin: 30px 50px;
+        margin: 30px 0px;
+        margin-left: 110px;
         border: 0.5px solid #979797;
-        width: 99%;
+        width: 70%;
     }
 
     .color-gray {
         font-size: 14px;
     }
 
+    .footer-subtitle {
+        margin-left: 20px;
+    }
+
+    .footer-subtitle p {
+        width: 8.5em;
+        height: 0%;
+        margin-right: -20px;
+    }
+
     .footer-subtitles {
         display: block;
-        width: 100%;
+        margin-left: 40px;
     }
 
-    .footer-subtitles .footer-subtitle {
-        min-width: 100%;
-        margin-left: 50px;
+    .footer-social,
+    .mobile-copyright {
+        height: 20px;
+        margin-left: 140px;
+        margin-top: 10px;
+        width: 200px;
     }
 
-    .footer-subtitle .sitemap {
-        margin-right: 10px;
+    .mobile-copyright {
+        width: 400px;
+        margin-left: 160px;
+        margin-top: 15px;
+    }
+
+    .footer-sitemap {
+        margin-right: 55px;
+        margin-left: 15px;
     }
 }
